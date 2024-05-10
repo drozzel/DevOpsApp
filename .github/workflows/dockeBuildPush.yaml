@@ -1,7 +1,7 @@
 name: .NET CI DOCKER 
 
 env:
-  registryName: 4unvgumuosyiywthregRozzel
+  registryName: 4unvgumuosyiywthregrozzel.azurecr.io
   repositoryName: wth/dotnetcoreapp
   dockerFolderPath: ./Application/src/RazorPagesTestSample
   tag: ${{github.run_number}}
